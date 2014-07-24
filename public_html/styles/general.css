@@ -1,0 +1,451 @@
+/* ==========================================================================
+   GENERAL
+   ========================================================================== */
+
+
+/* ---------------------------------Basic------------------------------------- */
+
+a, div, html, body, header, span, p, img, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: 12px/18px 'Georgia', 'Verdana', sans-serif;
+	color: #fff;
+	background: url('../images/main-background.jpg') no-repeat fixed center 0 #272218;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-wrapper{
+    width: 1000px;
+    float: left;
+}
+
+#dp_swf_engine {
+ display:none;
+}
+
+.content-wrapper {
+	width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------Header------------------------------------- */
+
+.main-header {
+	background-color: rgba(36, 17, 28, 0.41);
+	border-bottom: 2px solid #a56c98;
+	overflow: hidden;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+
+.upper-header {
+	height: 150px;
+	float: left;
+}
+
+.main-logo {
+	width: 350px;
+	height: 150px;
+	background-image: url(../images/logo_supernova.png);
+	background-size: 350px 150px;
+	background-repeat:no-repeat;
+}
+
+
+.main-logo h1 {
+	visibility: hidden;
+	height: 150px;
+	width: 350px;
+}
+
+#main-navigation {
+	float: right;
+	padding-top: 80px;
+}
+
+#main-navigation a {
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+#main-navigation a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#main-navigation a.current {
+	background: #FAE4E4 url('../images/navigation_background.png') no-repeat top 5px center;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+
+/* ---------------------------------Footer------------------------------------- */
+
+.main-footer {
+	background-color: rgba(36, 17, 28, 0.5);
+	border-top: 2px solid #a56c98;
+	height: 50px;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.main-footer .left-par {
+	float: left;
+	margin: 15px;
+}
+
+.main-footer .right-par {
+	float: right;
+	margin: 15px;
+}
+
+
+/* ---------------------------------Aside------------------------------------- */
+
+
+.aside-wrapper {
+	padding: 10px;
+	border-radius: 15px;
+	float: right;
+}
+
+/* ---------------------------------Other------------------------------------- */
+
+
+.page-title {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 18px;
+	padding: 0 0 30px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+
+/* ==========================================================================
+   INDEX
+   ========================================================================== */
+
+
+.main-content {
+	padding: 25px;
+	border-radius: 15px;
+	background-color: rgba(36, 17, 28, 0.5);
+}
+
+.pararg-wrapper {
+	margin: 0 20px 20px 20px;
+}
+
+.pararg-wrapper p {
+	padding: 10px 0;
+}
+
+.emphasized {
+	font-weight: bold; 
+	font-size: 15px;
+}
+
+.image-wrapper {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+/* ==========================================================================
+   DANCES
+   ========================================================================== */
+
+.dance-style, .dance-style-right {
+	width: 800px;
+	margin: 20px auto;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 15px;
+}
+
+.image-wrapper-2 {
+	float: left;
+	margin-right: 30px;
+}
+
+.dance-style-right .image-wrapper-2 {
+	float: right;
+	margin-left: 30px;
+	margin-right: 0;
+}
+
+/* ==========================================================================
+   FAQs
+   ========================================================================== */
+.question-wrapper {
+	margin: 0 20px;
+}
+
+.question-wrapper ol li {
+	padding: 10px 0;
+}
+
+.question-wrapper p {
+	padding: 10px 0;
+}
+
+.question-wrapper a{
+	text-decoration: underline;
+}
+
+.question-wrapper .question{
+	font-size: 16px;
+}
+
+.question-wrapper .answer{
+	font-size: 12px;
+}
+
+
+/* ==========================================================================
+   Contact Form
+   ========================================================================== */
+
+#contact-form {
+	float: left;
+	margin: 10px;
+	margin-top: 40px;
+}
+
+#contact-form th {
+	text-align: right;
+	font-weight: normal;
+	padding: 10px;
+}
+
+#contact-form input, #contact-form textarea{
+	background-color: rgba(36, 17, 28, 0.9);
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+    padding: 6px;
+    width: 300px;
+}
+
+#contact-form textarea {
+	height: 150px;
+}
+
+#contact-form input[type="submit"] {
+	width: 200px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left:150px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+outline: none;
+box-shadow: 0px 0px 3pt 2pt #a56c98;
+}
+
+#contact-box {
+	float: right;
+}
+
+#contact-info{
+	min-height:0;
+	_zoom: 1;
+}
+
+#contact-info: after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#contact-info p {
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.primary {
+	float: right;
+}
+
+
+#google-map {
+	margin: 20px 20px 10px 10px;
+}
+
+#google-map a {
+	color: #fff;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+
+
+
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+
+
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border: 1px solid #a56c98;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+}
+
+.hoverbox li
+{
+	border: 1px solid #a56c98;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 200px;
+	height: 150px;
+}
+
+
+/* Gallery 2
+----------------------------------------------------------------------*/
+
+.interactive-gallery {
+	margin: 0 auto;
+}
+
+.gallery-wrap {
+	height: 600px;
+}
+
+.interactive-gallery li {
+    display: inline-block;
+    list-style: none; }
+
+.interactive-gallery li img {
+	cursor: pointer;
+	margin: 3px; 
+	opacity: 0.7;
+	border: 1px solid #a56c98;
+}
+
+.interactive-gallery li img:hover {
+    box-shadow: 0 0 40px #FFFFFF, 0 -10px 10px #FFFFFF inset;
+    opacity: 1;
+}
+
+#images_big {
+  position: relative;
+  margin: 0; }
+
+#images_big input[type="radio"] {
+display: none; }
+
+#images_big input[type="radio"]:checked + a>.big_image {
+opacity: 1;
+z-index: 1;
+visibility: visible; }
+
+.big_image {
+opacity: 0;
+z-index: -1;
+visibility: hidden;
+display: inline-block;
+position: absolute;
+margin-left: 300px;
+height: 400px;
+width: 400px;
+border: 2px solid #a56c98;
+box-shadow: 0 0 40px #FFFFFF, 0 -10px 10px #FFFFFF inset;
+-webkit-transition: opacity 555ms ease-in-out;
+-moz-transition: opacity 555ms ease-in-out;
+-o-transition: opacity 555ms ease-in-out;
+transition: opacity 555ms ease-in-out; 
+}
+
+.thumbnail {
+	height: 70px;
+	width: 70px;
+}
+
+
