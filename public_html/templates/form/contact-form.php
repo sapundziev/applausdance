@@ -56,7 +56,7 @@ if (!isset($_POST['submit'])) {
   	if (!validEmail($email[2])) {
   	  $error = 1;
   	  $email[3] = 'color:#FF0000;';
-  	  $email[4] = '<strong><span style="color:#FF0000;">Invalid email</span></strong>';
+  	  $email[4] = '<strong><span style="color:#FF0000;">Невалиден email</span></strong>';
 	  }
   }
   else {
@@ -93,12 +93,12 @@ if (!isset($_POST['submit'])) {
     if(!$valid) {
       $error = 1;
       $code[3] = 'color:#FF0000;';   
-      $code[4] = '<strong><span style="color:#FF0000;">Incorrect code</span></strong>';
+      $code[4] = '<strong><span style="color:#FF0000;">Грешен код</span></strong>';
     }
   }
 
   if ($error == 1) {
-    $error_message = '<div style="font-weight:bold;font-size:90%;margin-bottom:5px;}">Please correct/enter field(s) in red.</div>';
+    $error_message = '<div style="color:#FF0000;font-weight:bold;font-size:90%;margin-bottom:5px;}">Всички полета са задължителни.</div>';
 
     showForm();
 
@@ -134,7 +134,7 @@ if (!isset($_POST['submit'])) {
 				$form_width = '100%';
 			}
       echo '<a name="cform"><!--Form--></a>'."\n";
-      echo '<div id="formContainer" style="width: '.$form_width.';height: '.$form_height.';text-align: left; vertical-align: top;">'."\n";
+      echo '<div id="contact-form">'."\n";
       echo $GLOBALS['thank_you_message']."\n";
       echo '</div>'."\n";
       if ($use_header_footer) include $footer_file;
@@ -174,37 +174,42 @@ echo <<<EOD
 <tbody>
 <tr>
 <td>{$name[0]}</td>
-<td><input type="text" name="{$name[1]}" value="{$name[2]}" id="{$name[1]}" /></td>
+<td colspan="2"><input type="text" name="{$name[1]}" value="{$name[2]}" id="{$name[1]}" /></td>
 </tr>
 <tr>
 <td>{$email[0]}</td>
-<td><input type="text" name="{$email[1]}" value="{$email[2]}" id="{$email[1]}" /> {$email[4]}</td>
+<td colspan="2"><input type="text" name="{$email[1]}" value="{$email[2]}" id="{$email[1]}" /> {$email[4]}</td>
 </tr>
 <tr>
 <td>{$subject[0]}</td>
-<td><input type="text" name="{$subject[1]}" value="{$subject[2]}" size="40" id="{$subject[1]}" /></td>
+<td colspan="2"><input type="text" name="{$subject[1]}" value="{$subject[2]}" size="40" id="{$subject[1]}" /></td>
 </tr>
 <tr>
 <td>{$message[0]}</td>
-<td><textarea name="{$message[1]}" cols="40" rows="6" id="{$message[1]}">{$message[2]}</textarea></td>
+<td colspan="2"><textarea name="{$message[1]}" cols="40" rows="6" id="{$message[1]}">{$message[2]}</textarea></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td><img id="captcha" src="templates/form/formfiles/contact-securimage_show.php" alt="CAPTCHA Image" />
-&nbsp;&nbsp;<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">За нов код кликнете тук.</a></td>
+<td><img id="captcha" src="templates/form/formfiles/contact-securimage_show.php" alt="CAPTCHA Image" /></td><td>
+<table>
+<tr><td>
+<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">За нов код кликнете тук.</a>
+</td></tr><tr><td>
+{$code[4]} 
+</td>
 </tr>
-<tr>
-<td>{$code[0]}</td>
-<td><input type="text" name="{$code[1]}" size="10" maxlength="5" id="{$code[1]}" /> {$code[4]}
+</table>
 </td>
 </tr>
 <tr>
-<td colspan="2">Всички полета са задължителни.</td>
+<td>{$code[0]}</td>
+<td colspan="2"><input type="text" name="{$code[1]}" size="10" maxlength="5" id="{$code[1]}" /> 
+</td>
 </tr>
 </tbody>
 <tfoot>
 <tr>
-<td colspan="2"><input type="submit" name="submit" value="Изпрати запитване" id="submit_button" /></td>
+<td colspan="3"><input type="submit" name="submit" value="Изпрати запитване" id="submit_button" /></td>
 </tr>
 </tfoot>
 </table>

@@ -267,6 +267,10 @@ h3 {
     width: 300px;
 }
 
+#contact-form  td {
+	vertical-align: top;
+}
+
 #contact-form textarea {
 	height: 150px;
 }

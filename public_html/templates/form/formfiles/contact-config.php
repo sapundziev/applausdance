@@ -72,7 +72,7 @@ $footer_file = 'formfiles/contact-footer.php';
 
 $thank_you_message = <<<EOD
 <!-- Start message -->
-<p><strong>Благодарим ви за проявения интерес. В най-скоро време ще се свържем с вас.</strong></p>
+<p><strong>Благодарим ви за проявения интерес. </br>В най-скоро време ще се свържем с вас.</strong></p>
 <!-- End message -->
 EOD;
 
