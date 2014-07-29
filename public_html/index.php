@@ -15,9 +15,9 @@
 					</p>
 				</div><!-- end of .pararg-wrapper -->
 				<div class="image-wrapper">
-					<img src="/images/bibi_mitio_300_200.png" alt="Image">
-					<img src="/images/bobi_ive_300_200.png" alt="Image">
-					<img src="/images/bibi_nace_300_200.png" alt="Image">
+					<img src="images/bibi_mitio_300_200.png" alt="Image">
+					<img src="images/bobi_ive_300_200.png" alt="Image">
+					<img src="images/bibi_nace_300_200.png" alt="Image">
 				</div><!-- end of .image-wrapper -->
 				<div class="pararg-wrapper">
 					<h2>Популяризиране на танца като начин да изразиш себе си пред публика</h2>
@@ -26,9 +26,9 @@
 					</p>
 				</div><!-- end of .pararg-wrapper -->
 				<div class="image-wrapper">
-					<img src="/images/bibi_poza_200_300.png" alt="Image">
-					<img src="/images/iva_slavi_500_300.png" alt="Image">
-					<img src="/images/petya_marto_200_300.png" alt="Image">
+					<img src="images/bibi_poza_200_300.png" alt="Image">
+					<img src="images/iva_slavi_500_300.png" alt="Image">
+					<img src="images/petya_marto_200_300.png" alt="Image">
 				</div><!-- end of .image-wrapper -->
                         
     		</div> <!-- end of .main-content -->

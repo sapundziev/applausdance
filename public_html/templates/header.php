@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="styles/contact-page.css">
     <link rel="stylesheet" href="styles/blog-item-page.css">
     <link rel="stylesheet" type="text/css" href="styles/blog-page.css">
+	<link rel="icon" href="logo_supernova-2.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="logo_supernova-2.ico" type="image/x-icon">
 
 </head>
 
@@ -34,13 +36,15 @@
                     </div>
                 </div>
                 <!-- <h1 id="logoBibi"><a href="index.html" title="Ателие за уникални танцови изяви"><img src="images/logo_supernova.png" alt="Ателие за уникални танцови изяви" width="350" height="150" /></a></h1> -->
-                <nav id="main-navigation">
-                    <a href="index.php" title="ApplauS Dance">ApplauS Dance</a>
-                    <a href="dances.php" title="Танците">Танците</a>
-                    <a href="faqs.php" title="Чуденки">Чуденки</a>
-                    <!--a href="gallery.php" title="Галерия">Галерия</a-->
-                    <!--a href="gallery-2.php" title="Галерия">Галерия 2</a-->
-                    <a href="contact-page.php" title="Контакти">Контакти</a>
-                </nav>
+                <div class="navigation-wrapper">
+					<nav id="main-navigation">
+						<a href="index.php" title="ApplauS Dance">ApplauS Dance</a>
+						<a href="dances.php" title="Танците">Танците</a>
+						<a href="faqs.php" title="Чуденки">Чуденки</a>
+						<!--a href="gallery.php" title="Галерия">Галерия</a-->
+						<!--a href="gallery-2.php" title="Галерия">Галерия 2</a-->
+						<a href="contact-page.php" title="Контакти">Контакти</a>
+					</nav>
+				</div>
             </div>
         </header>
