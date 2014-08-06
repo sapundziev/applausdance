@@ -41,7 +41,7 @@
 						<a href="index.php" title="ApplauS Dance">ApplauS Dance</a>
 						<a href="dances.php" title="Танците">Танците</a>
 						<a href="faqs.php" title="Чуденки">Чуденки</a>
-						<!--a href="gallery.php" title="Галерия">Галерия</a-->
+						<a href="gallery.php" title="Галерия">Галерия</a>
 						<!--a href="gallery-2.php" title="Галерия">Галерия 2</a-->
 						<a href="contact-page.php" title="Контакти">Контакти</a>
 					</nav>
