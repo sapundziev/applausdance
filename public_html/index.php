@@ -27,8 +27,8 @@
 				</div><!-- end of .pararg-wrapper -->
 				<div class="image-wrapper">
 					<img src="images/bibi_poza_200_300.png" alt="Image">
-					<img src="images/iva_slavi_200_300.png" alt="Image">
-					<img src="images/yani_krasi_300_300.png" alt="Image">
+					<img src="images/iva_slavi_200_300.jpg" alt="Image">
+					<img src="images/yani_krasi_300_300.jpg" alt="Image">
 					<img src="images/petya_marto_200_300.png" alt="Image">
 				</div><!-- end of .image-wrapper -->
                         

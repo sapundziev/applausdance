@@ -61,10 +61,11 @@ a {
 .main-header {
 	background-color: rgba(36, 17, 28, 0.41);
 	border-bottom: 2px solid #a56c98;
-	overflow: hidden;
 	margin-bottom: 50px;
 	padding-bottom: 10px;
 }
+
+
 
 .upper-header {
 	height: 150px;
