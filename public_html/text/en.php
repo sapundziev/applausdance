@@ -166,5 +166,12 @@ $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 
 $CONTACT_BIGGER_MAP = "Вижте по-голяма карта";
 
+$SOCIAL_VIMEO = "Vimeo videos";
+
+$SOCIAL_PICASA = "Picasa gallery";
+
+$SOCIAL_MAIL = "Send an email";
+
+$SOCIAL_COMING_SOON = "Coming soon";
 
 ?>
