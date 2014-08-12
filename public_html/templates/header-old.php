@@ -1,5 +1,4 @@
-<?php include 'inc/env.php'; 
-?>
+<?php include 'inc/env.php'; ?>
 <!DOCTYPE html>
 
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -7,7 +6,7 @@
 <!--[if IE 9]>    <html class="no-js eq-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="windows-1251"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <base href="<?php echo $basehref; ?>">
@@ -27,43 +26,25 @@
 </head>
 
 <body>
-<?php 
-if ( !empty($_GET['language']) ) {
-    $_COOKIE['language'] = $_GET['language'] === 'en' ? 'en' : 'bg';
-} else {
-    $_COOKIE['language'] = 'bg';
-}
-setcookie('language', $_COOKIE['language']);
-if ( $_COOKIE['language'] == "en") {
-   require('text/en.php');
-   $language = 'en';
-} else {
-   require('text/bg.php');
-   $language = 'bg';
-} 
 
-?>
     <div class="main-wrapper" role="main">
         <header class="main-header">
             <div class="wrapper centering clearfix">
                 <div class="upper-header">
                     <div class="main-logo">
-                        <a href="index.php?language=<?php echo $language ?>" title="Ателие за уникални танцови изяви"><h1>ApplauS Dance</h1></a>
+                        <a href="index.php" title="Ателие за уникални танцови изяви"><h1>ApplauS Dance</h1></a>
                     </div>
                 </div>
                 <!-- <h1 id="logoBibi"><a href="index.html" title="Ателие за уникални танцови изяви"><img src="images/logo_supernova.png" alt="Ателие за уникални танцови изяви" width="350" height="150" /></a></h1> -->
                 <div class="navigation-wrapper">
 					<nav id="main-navigation">
-						<a href="index.php?language=<?php echo $language ?>"title="ApplauS Dance">ApplauS Dance</a>
-						<a href="dances.php?language=<?php echo $language ?>"title="<?php echo $title_dances; ?>"><?php echo $title_dances; ?></a>
-						<a href="faqs.php?language=<?php echo $language ?>"title="<?php echo $title_faqs; ?>"><?php echo $title_faqs; ?></a>
-						<a href="gallery.php?language=<?php echo $language ?>"title="<?php echo $title_gallery; ?>"><?php echo $title_gallery; ?></a>
-						<a href="contact-page.php?language=<?php echo $language ?>"title="<?php echo $title_contact; ?>"><?php echo $title_contact; ?></a>
+						<a href="index.php" title="ApplauS Dance">ApplauS Dance</a>
+						<a href="dances.php" title="Танците">Танците</a>
+						<a href="faqs.php" title="Чуденки">Чуденки</a>
+						<a href="gallery.php" title="Галерия">Галерия</a>
+						<!--a href="gallery-2.php" title="Галерия">Галерия 2</a-->
+						<a href="contact-page.php" title="Контакти">Контакти</a>
 					</nav>
-				</div>
-				<div>
-					<a href="index.php?language=bg">BG</a>|
-					<a href="index.php?language=en">EN</a>
 				</div>
             </div>
         </header>
