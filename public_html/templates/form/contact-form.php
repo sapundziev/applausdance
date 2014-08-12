@@ -155,7 +155,7 @@ if (!isset($_POST['submit'])) {
 function showForm()
 
 {
-global $name, $email, $subject, $message, $code;
+global $name, $email, $subject, $message, $code, $CONTACT_NEW_CODE,$CONTACT_SUBMIT_BUTTON_TEXT;
 global $where_included, $use_header_footer, $header_file, $footer_file;
 global $form_width, $form_height, $form_background, $form_border_color, $form_border_width, $form_border_style, $cell_padding, $left_col_width; 	
 
@@ -193,7 +193,7 @@ echo <<<EOD
 <td><img id="captcha" src="templates/form/formfiles/contact-securimage_show.php" alt="CAPTCHA Image" /></td><td>
 <table>
 <tr><td>
-<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">За нов код кликнете тук.</a>
+<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">{$CONTACT_NEW_CODE}</a>
 </td></tr><tr><td>
 {$code[4]} 
 </td>
@@ -209,7 +209,7 @@ echo <<<EOD
 </tbody>
 <tfoot>
 <tr>
-<td colspan="3"><input type="submit" name="submit" value="Изпрати запитване" id="submit_button" /></td>
+<td colspan="3"><input type="submit" name="submit" value="{$CONTACT_SUBMIT_BUTTON_TEXT}" id="submit_button" /></td>
 </tr>
 </tfoot>
 </table>

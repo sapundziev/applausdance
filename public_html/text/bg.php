@@ -166,6 +166,14 @@ $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 
 $CONTACT_BIGGER_MAP = "Вижте по-голяма карта";
 
+$CONTACT_NEW_CODE = "За нов код кликнете тук.";
+$CONTACT_NAME = "Вашето име";
+$CONTACT_EMAIL = "Ел. поща";
+$CONTACT_SUBJECT = "Заглавие";
+$CONTACT_MESSAGE = "Запитване";
+$CONTACT_CODE = "Код";
+$CONTACT_SUBMIT_BUTTON_TEXT = "Изпрати запитване";
+
 $SOCIAL_VIMEO = "Видео галерия във Vimeo";
 
 $SOCIAL_PICASA = "Галерия в Picasa";

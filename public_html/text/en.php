@@ -1,10 +1,10 @@
-<!--#Test text container php file - english-->
+<!--Test text container php file - bulgarian - български език-->
 <?php
 $INDEX_TAB_NAME = "ApplauS Dance";
-$DANCES_TAB_NAME = 'Dances';
-$QANDA_TAB_NAME = 'FAQ';
-$GALLERY_TAB_NAME = 'Gallery';
-$CONTACT_TAB_NAME = 'Contact';
+$DANCES_TAB_NAME = "Танците";
+$QANDA_TAB_NAME = "Чуденки";
+$GALLERY_TAB_NAME = "Галерия";
+$CONTACT_TAB_NAME = "Контакт";
 
 $SITE_TITLE = "ApplauS Dance";
 $INDEX_TITLE = "ApplauS Dance - Ателие за уникални танцови изяви";
@@ -166,12 +166,20 @@ $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 
 $CONTACT_BIGGER_MAP = "Вижте по-голяма карта";
 
-$SOCIAL_VIMEO = "Vimeo videos";
+$CONTACT_NEW_CODE = "За нов код кликнете тук.";
+$CONTACT_NAME = "Вашето име";
+$CONTACT_EMAIL = "Ел. поща";
+$CONTACT_SUBJECT = "Заглавие";
+$CONTACT_MESSAGE = "Запитване";
+$CONTACT_CODE = "Код";
+$CONTACT_SUBMIT_BUTTON_TEXT = "Изпрати запитване";
 
-$SOCIAL_PICASA = "Picasa gallery";
+$SOCIAL_VIMEO = "Видео галерия във Vimeo";
 
-$SOCIAL_MAIL = "Send an email";
+$SOCIAL_PICASA = "Галерия в Picasa";
 
-$SOCIAL_COMING_SOON = "Coming soon";
+$SOCIAL_MAIL = "Изпратете email";
+
+$SOCIAL_COMING_SOON = "Очаквайте скоро";
 
 ?>

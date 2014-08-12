@@ -125,10 +125,10 @@ $left_col_width = '25%';
  *	what you are doing :)
 *******************************************************************************/
 
-$name = array('Вашето име','name',NULL,NULL);
-$email = array('Email','email',NULL,NULL,NULL);
-$subject = array('Заглавие','subject',NULL,NULL);
-$message = array('Запитване','message',NULL,NULL);
-$code = array('Код','captcha_code',NULL,NULL,NULL);
+$name = array($CONTACT_NAME,'name',NULL,NULL);
+$email = array($CONTACT_EMAIL,'email',NULL,NULL,NULL);
+$subject = array($CONTACT_SUBJECT,'subject',NULL,NULL);
+$message = array($CONTACT_MESSAGE,'message',NULL,NULL);
+$code = array($CONTACT_CODE,'captcha_code',NULL,NULL,NULL);
 
 ?>
