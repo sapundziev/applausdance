@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
 if (session_id() == '') session_start();
 /*******************************************************************************
 *  Title: Easy PHP Contact Form (Captcha Version)
@@ -193,7 +193,7 @@ echo <<<EOD
 <td><img id="captcha" src="templates/form/formfiles/contact-securimage_show.php" alt="CAPTCHA Image" /></td><td>
 <table>
 <tr><td>
-<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">За нов код кликнете тук.</a>
+<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">Р—Р° РЅРѕРІ РєРѕРґ РєР»РёРєРЅРµС‚Рµ С‚СѓРє.</a>
 </td></tr><tr><td>
 {$code[4]} 
 </td>
@@ -209,7 +209,7 @@ echo <<<EOD
 </tbody>
 <tfoot>
 <tr>
-<td colspan="3"><input type="submit" name="submit" value="Изпрати запитване" id="submit_button" /></td>
+<td colspan="3"><input type="submit" name="submit" value="РР·РїСЂР°С‚Рё Р·Р°РїРёС‚РІР°РЅРµ" id="submit_button" /></td>
 </tr>
 </tfoot>
 </table>

@@ -1,4 +1,4 @@
-<?php include 'inc/env.php'; 
+п»ї<?php include 'inc/env.php'; 
 ?>
 <!DOCTYPE html>
 
@@ -48,17 +48,16 @@ if ( $_COOKIE['language'] == "en") {
             <div class="wrapper centering clearfix">
                 <div class="upper-header">
                     <div class="main-logo">
-                        <a href="index.php?language=<?php echo $language ?>" title="Ателие за уникални танцови изяви"><h1>ApplauS Dance</h1></a>
+                        <a href="index.php?language=<?php echo $language ?>" title="<?php echo $INDEX_TITLE; ?>"><h1><?php echo $SITE_TITLE; ?></h1></a>
                     </div>
                 </div>
-                <!-- <h1 id="logoBibi"><a href="index.html" title="Ателие за уникални танцови изяви"><img src="images/logo_supernova.png" alt="Ателие за уникални танцови изяви" width="350" height="150" /></a></h1> -->
                 <div class="navigation-wrapper">
 					<nav id="main-navigation">
-						<a href="index.php?language=<?php echo $language ?>"title="ApplauS Dance">ApplauS Dance</a>
-						<a href="dances.php?language=<?php echo $language ?>"title="<?php echo $title_dances; ?>"><?php echo $title_dances; ?></a>
-						<a href="faqs.php?language=<?php echo $language ?>"title="<?php echo $title_faqs; ?>"><?php echo $title_faqs; ?></a>
-						<a href="gallery.php?language=<?php echo $language ?>"title="<?php echo $title_gallery; ?>"><?php echo $title_gallery; ?></a>
-						<a href="contact-page.php?language=<?php echo $language ?>"title="<?php echo $title_contact; ?>"><?php echo $title_contact; ?></a>
+						<a href="index.php?language=<?php echo $language ?>"title="<?php echo $INDEX_TAB_NAME; ?>"><?php echo $INDEX_TAB_NAME; ?></a>
+						<a href="dances.php?language=<?php echo $language ?>"title="<?php echo $DANCES_TAB_NAME; ?>"><?php echo $DANCES_TAB_NAME; ?></a>
+						<a href="faqs.php?language=<?php echo $language ?>"title="<?php echo $QANDA_TAB_NAME; ?>"><?php echo $QANDA_TAB_NAME; ?></a>
+						<a href="gallery.php?language=<?php echo $language ?>"title="<?php echo $GALLERY_TAB_NAME; ?>"><?php echo $GALLERY_TAB_NAME; ?></a>
+						<a href="contact-page.php?language=<?php echo $language ?>"title="<?php echo $CONTACT_TAB_NAME; ?>"><?php echo $CONTACT_TAB_NAME; ?></a>
 					</nav>
 				</div>
 				<div>

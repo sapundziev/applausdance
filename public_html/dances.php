@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
     $page = 'Dances';
     include('templates/header.php');
 ?>
@@ -7,70 +7,70 @@
 
 	<div class ="text-wrapper">
 		<div class="main-content">
-			<h1 class="page-title">Танците</h1>
-			<h2>Аплаус денс ще ви помогне да блеснете на сцената, която вие сте си избрали и на музиката, която ви изразява най-добре</h2>
+			<h1 class="page-title"><?php echo $DANCES_TITLE; ?></h1>
+			<h2><?php echo $DANCES_DESCRIPTION; ?></h2>
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/wedding_dance.jpg" alt="Хореография на първи сватбен танц">
+						<img src="images/wedding_dance.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Хореография на първи сватбен танц</h3>
-						<p>Перфектната подготовка е в основата на зашеметяващия първи сватбен танц. От избор на музика до настилка на сцената, от вашето облекло в деня на събитието до напрежението и желанието всичко е перфектно. Ние разбираме, че първи сватбен танц за повечето хора е единствено в живота събитие и правим подобаваща хореография. Тренираме, докато не сме доволни от резултата, който се вижда в огледалото.</p>
+						<h3><?php echo $DANCES_FIRST_WEDDING_TITLE; ?></h3>
+						<p><?php echo $DANCES_FIRST_WEDDING_DESCRIPTION; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style-right clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/kumove.jpg" alt="Хореография на кумовете">
+						<img src="images/kumove.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Хореография на кумовете</h3>
-						<p>Кумовете имат много задачи и задължения преди, по време на и след сватбата. Не случайно са избрани за такива, защото ще могат да съвместят всичко това с един прекрасен танц, който да служи за пример на младоженците. Предайте вашата любов чрез движенията си и изиграйте стъпките, по които младите ще ходят!</p>
+						<h3><?php echo $DANCES_BESTMEN_DANCE_TITLE; ?></h3>
+						<p><?php echo $DANCES_BESTMEN_DANCE_DESCRIPTION; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/pozdrav.jpg" alt="Танц – поздрав на важно събитие">
+						<img src="images/pozdrav.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Танц – поздрав на важно събитие</h3>
-						<p>Искате да зарадвате, или направо изненадате ваши приятели и близки на техен важен повод? Тук вариантите са безкрайни и полето за изява е широко. Ще измислим заедно танцът, който да постигне ефект „Уау!“.</p>
+						<h3><?php echo $DANCES_SALUTATION_DANCE_TITLE; ?></h3>
+						<p><?php echo $DANCES_SALUTATION_DANCE_DESCRIPTION; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style-right clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/narodni.png" alt="Български народни танци">
+						<img src="images/narodni.png">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Български народни танци</h3>
-						<p>Неизменна част от много сватби, народните танци са гаранция за забавление. За да не „забавлявате“ с култово-неадекватните си движения останалите гости, елате да преговорим основните сватбарски хора. Ако мислите, че преговорът няма да е достатъчен, ще ги научим отначало. Гарантираме, че няма да сте опасни за здравето на съседите по хоро.</p>
-						<p>Искате по-раздвижена хореография, искате да разкажете история с автентичен танц и финес? Независимо дали герои за историята, сюжета или реквизита за нея, викнете вашето „Иии иха“  и няма как да не получите отговор на този зов.</p>
+						<h3><?php echo $DANCES_BULGARIAN_FOLKLORE_TITLE; ?></h3>
+						<p><?php echo $DANCES_BULGARIAN_FOLKLORE_DESCRIPTION1; ?></p>
+						<p><?php echo $DANCES_BULGARIAN_FOLKLORE_DESCRIPTION2; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/static.jpg" alt="Статични танци –а.к.а. фотография">
+						<img src="images/static.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Статични танци –а.к.а. фотография</h3>
-						<p>Нека спомогнем за вашата фотосесия с най-красивите пози, консултация за дрехи и външен вид. През нашите фотообективи ще откриете съвсем друго визия, а може би и другото си АЗ?</p>
+						<h3><?php echo $DANCES_PHOTOGRAPHY_TITLE; ?></h3>
+						<p><?php echo $DANCES_PHOTOGRAPHY_DESCRIPTION; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style-right clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/king_and_queen.jpg" alt="Искам да съм крал/кралица на бала">
+						<img src="images/king_and_queen.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Искам да съм крал/кралица на бала</h3>
-						<p>Дали завършваме училище или сме отскочили до Виена – сигурно искаме да останем със спомени за цял живот. Какво по-хубаво от един плавен валс или шеметно танго? Ще положим основите и ще танцуваме така, че да направим впечатление и на най-незаинтересованите очи. А най-важното – ще научим как да се забавляваме отвътре и как това да ни личи по танца.</p>
+						<h3><?php echo $DANCES_PROM_DANCE_TITLE; ?></h3>
+						<p><?php echo $DANCES_PROM_DANCE_DESCRIPTION; ?></p>
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/logo_supernova-2.png" alt="Какво ще предложите вие?">
+						<img src="images/logo_supernova-2.png">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
-						<h3>Какво ще предложите вие?</h3>
-						<p>По-нагоре може да не сте видели нещото, което търсите. Не е възможно да се изброят всички танци, хореографии и техните приложения. Това, което е напълно възможно обаче, е да споделите ваша идея. Възможно е и да намерите съмишленици за нея тук. В идеалния случай, тя ще бъде превърната в изява. Какво по-страхотно от това? Да действаме! </p><br />
+						<h3><?php echo $DANCES_SUGGESTIONS_TITLE; ?></h3>
+						<p><?php echo $DANCES_SUGGESTIONS_DESCRIPTION; ?></p><br />
 					</div><!-- end of .pararg-wrapper-2 -->
 				</div><!-- end of .dance-style -->
 			

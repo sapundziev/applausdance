@@ -21,7 +21,7 @@
 
     <div class ="text-wrapper">
         <div class="main-content clearfix">
-            <h1 class="page-title">Галерия</h1>
+            <h1 class="page-title"><?php echo $GALLERY_TITLE; ?></h1>
            
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->

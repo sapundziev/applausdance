@@ -69,6 +69,8 @@ a {
 	border-bottom: 2px solid #a56c98;
 	margin-bottom: 50px;
 	padding-bottom: 10px;
+	width: auto;
+	border-radius: 15px;
 }
 
 
@@ -128,6 +130,8 @@ a {
 	height: 50px;
 	color: #fff;
 	margin-top: 50px;
+	border-radius: 15px;
+
 }
 
 .main-footer .left-par {
@@ -138,6 +142,7 @@ a {
 .main-footer .right-par {
 	float: right;
 	margin: 15px;
+	margin-right: 215px;
 }
 
 

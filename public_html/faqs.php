@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
     $page = 'Dances';
     include('templates/header.php');
 ?>
@@ -7,52 +7,52 @@
 
 	<div class ="text-wrapper">
 		<div class="main-content">
-			<h1 class="page-title">Отговори на вашите въпроси</h1>
+			<h1 class="page-title"><?php echo $QANDA_TITLE; ?></h1>
 				<div class="question-wrapper">
 					<ol>
-						<li class="question">Какво да направя, ако искам да пробвам?
+						<li class="question"><?php echo $QANDA_1_QUESTION; ?>
 							<ul>
-								<li class="answer">Първото и най-важното нещо е, ако проявявате интерес, е да се <a href="contact-page.php">свържете с нас</a>. <br />Ще се срещнем, ще поговорим и ако вашите виждания за танца си паснат с нашите възможности, продължаваме направо в залата, където ще тренираме.</li>
+								<li class="answer"><?php echo $QANDA_1_ANSWER; ?> <a href="contact-page.php"><?php echo $CONTACT_TITLE; ?></a><br /></li>
 							</ul>
 						</li>
-						<li class="question">Искам нещо, но нямам идея какво…?
+						<li class="question"><?php echo $QANDA_2_QUESTION; ?>
 							<ul>
-								<li class="answer">Срещаме се, говорим си и впоследствие заедно формулираме и осъществяваме идеята.</li>
+								<li class="answer"><?php echo $QANDA_2_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Колко време ще ми трябва?
+						<li class="question"><?php echo $QANDA_3_QUESTION; ?>
 							<ul>
-								<li class="answer">Въпросът е с колко време разполагате. Ше съобразим хореграфията с времето, което може да тренирате и вашите възможности, така че да изглежда красиво.</li>
+								<li class="answer"><?php echo $QANDA_3_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Къде ще тренираме?
+						<li class="question"><?php echo $QANDA_4_QUESTION; ?>
 							<ul>
-								<li class="answer">В момента разполагаме със зала в Княжево. Ако вие можете да предоставите място, подходящо за танци,  ще го използваме.</li>
+								<li class="answer"><?php echo $QANDA_4_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Колко ще струва?
+						<li class="question"><?php echo $QANDA_5_QUESTION; ?>
 							<ul>
-								<li class="answer">Ценообразуването е динамично. Mоже да зависи от вашето финансово състояния, броя репетиции и сложността на танца. Предвидено е първите няколко танца да са напълно безплатни.</li>
+								<li class="answer"><?php echo $QANDA_5_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Има ли ограничения за възраст?
+						<li class="question"><?php echo $QANDA_6_QUESTION; ?>
 							<ul>
-								<li class="answer">С най-голямо удоволствие работим с малки деца, както и с възрастни хора. Важното е да имате възможност да се движите и огромно желание да танцувате и да бъдете оценени от публиката. Няма ограничения за възраст, пол, раса, религиозни и политически убеждения. Единственото нужно убеждение е да танцувате с желание и ясна цел.</li>
+								<li class="answer"><?php echo $QANDA_6_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Има ли максимален брой хора за хореографията?
+						<li class="question"><?php echo $QANDA_7_QUESTION; ?>
 							<ul>
-								<li class="answer">Ако вашата група/компания иска да направи зашеметяващ танц, завладяващ не само с качество, но и с количество -> всички, които сцената може да побере, са добре дошли.</li>
+								<li class="answer"><?php echo $QANDA_7_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Искам да изненадам приятели, като ги изпратя да се научат да танцуват!
+						<li class="question"><?php echo $QANDA_8_QUESTION; ?>
 							<ul>
-								<li class="answer">Няма как да пропуснем среща, в която идеята е да научим максимално какви би зарадвало хората, какво ще им достави удоволствие и какви възможности имат. Важно е да знаем какъв е повода за танца и какви точно са очакванията ви за това, което ще научат и покажат.</li>
+								<li class="answer"><?php echo $QANDA_8_ANSWER; ?></li>
 							</ul>
 						</li>
-						<li class="question">Искам да се изявявам като хореограф!
+						<li class="question"><?php echo $QANDA_9_QUESTION; ?>
 							<ul>
-								<li class="answer">Разкажете ни за себе си – с какви танци имате опит, къде се чувствате най-добри колко време може да отделите. Или най-добре  - да се срещнем в залата и да започваме!</li>
+								<li class="answer"><?php echo $QANDA_9_ANSWER; ?></li>
 							</ul>
 						</li>
 					</ol>

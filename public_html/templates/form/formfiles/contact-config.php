@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*******************************************************************************
 *  Title: Easy PHP Contact Form (Captcha Version)
 *  Version: 2.0 @ September 14, 2010
@@ -125,10 +125,10 @@ $left_col_width = '25%';
  *	what you are doing :)
 *******************************************************************************/
 
-$name = array('Âàøåòî èìå','name',NULL,NULL);
+$name = array('Ð’Ð°ÑˆÐµÑ‚Ð¾ Ð¸Ð¼Ðµ','name',NULL,NULL);
 $email = array('Email','email',NULL,NULL,NULL);
-$subject = array('Çàãëàâèå','subject',NULL,NULL);
-$message = array('Çàïèòâàíå','message',NULL,NULL);
-$code = array('Êîä','captcha_code',NULL,NULL,NULL);
+$subject = array('Ð—Ð°Ð³Ð»Ð°Ð²Ð¸Ðµ','subject',NULL,NULL);
+$message = array('Ð—Ð°Ð¿Ð¸Ñ‚Ð²Ð°Ð½Ðµ','message',NULL,NULL);
+$code = array('ÐšÐ¾Ð´','captcha_code',NULL,NULL,NULL);
 
 ?>
