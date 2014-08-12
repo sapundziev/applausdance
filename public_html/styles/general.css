@@ -47,13 +47,19 @@ a {
  display:none;
 }
 
+
+.main-wrapper {
+	width: 1000px; /* increase if you want to add more navigation items*/
+    margin: 0 auto;
+}
+
 .content-wrapper {
 	width: 1200px;
     margin: 0 auto;
 }
 
 .navigation-wrapper {
-    margin-right: 200px;
+    margin-right: 200px; /*decrease if you want to add more navigation items*/
 }
 
 /* ---------------------------------Header------------------------------------- */
@@ -63,6 +69,7 @@ a {
 	border-bottom: 2px solid #a56c98;
 	margin-bottom: 50px;
 	padding-bottom: 10px;
+	width: auto
 }
 
 

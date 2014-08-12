@@ -16,4 +16,4 @@
 	/**#@-*/
 
 	// project name
-	$project_name = 'Boilerplate Prototype Template';
+	$project_name = 'ApplauS Dance';
