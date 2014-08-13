@@ -1,10 +1,10 @@
-<!--Test text container php file - bulgarian - български език-->
+<!--#Test text container php file - english-->
 <?php
 $INDEX_TAB_NAME = "ApplauS Dance";
-$DANCES_TAB_NAME = "Танците";
-$QANDA_TAB_NAME = "Чуденки";
-$GALLERY_TAB_NAME = "Галерия";
-$CONTACT_TAB_NAME = "Контакт";
+$DANCES_TAB_NAME = 'Dances';
+$QANDA_TAB_NAME = 'FAQ';
+$GALLERY_TAB_NAME = 'Gallery';
+$CONTACT_TAB_NAME = 'Contact';
 
 $SITE_TITLE = "ApplauS Dance";
 $INDEX_TITLE = "ApplauS Dance - Unique Dance Performances Atelier";
