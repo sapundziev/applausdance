@@ -1,4 +1,5 @@
 <?php session_start();
+$l = 'bg';
 if ( !empty($_GET['l']) ) {
     $l = $_GET['l'] === 'en' ? 'en' : 'bg';
 } 
