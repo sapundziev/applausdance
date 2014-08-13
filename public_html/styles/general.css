@@ -121,6 +121,10 @@ a {
 	font-weight: bold;
 }
 
+#lang-navigation a:hover {
+	color: #000;
+	text-decoration: underline;
+}
 
 /* ---------------------------------Footer------------------------------------- */
 

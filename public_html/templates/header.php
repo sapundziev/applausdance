@@ -55,8 +55,10 @@ if ( $l == "en") {
 					</nav>
 				</div>
 				<div>
-					<a href="index.php?l=bg">BG</a>|
-					<a href="index.php?l=en">EN</a>
+					<nav id="lang-navigation">
+						<a href="index.php?l=bg">BG</a>|
+						<a href="index.php?l=en">EN</a>
+					</nav>
 				</div>
             </div>
         </header>
