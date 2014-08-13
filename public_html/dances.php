@@ -1,6 +1,6 @@
 <?php
-    $page = 'Dances';
     include('templates/header.php');
+	$page = 'Dances';
 ?>
 
 <div class="content-wrapper">
