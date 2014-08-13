@@ -173,6 +173,10 @@ $CONTACT_SUBJECT = "Заглавие";
 $CONTACT_MESSAGE = "Запитване";
 $CONTACT_CODE = "Код";
 $CONTACT_SUBMIT_BUTTON_TEXT = "Изпрати запитване";
+$CONTACT_INVALID_EMAIL = "Невалидна ел. поща";
+$CONTACT_INVALID_CODE = "Грешен код";
+$CONTACT_ALL_FIELDS_REQUIRED = "Всички полета са задължителни.";
+$CONTACT_THANK_YOU_MESSAGE = "<p><strong>Благодарим ви за проявения интерес.</br> В най-скоро време ще се свържем с вас.</strong></p>";
 
 $SOCIAL_VIMEO = "Видео галерия във Vimeo";
 

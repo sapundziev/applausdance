@@ -70,11 +70,7 @@ $footer_file = 'formfiles/contact-footer.php';
 /* Thank you message to be displayed after the form is submitted. Can include 
  * HTML tags. Write your message between <!-- Start message --> and <!-- End message --> */
 
-$thank_you_message = <<<EOD
-<!-- Start message -->
-<p><strong>Благодарим ви за проявения интерес. </br>В най-скоро време ще се свържем с вас.</strong></p>
-<!-- End message -->
-EOD;
+$thank_you_message = $CONTACT_THANK_YOU_MESSAGE;
 
 /* URL to be redirected to after the form is submitted. If this is specified, 
  * then the above message will not be shown and user will be redirected to this 

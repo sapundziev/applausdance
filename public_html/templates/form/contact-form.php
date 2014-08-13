@@ -56,7 +56,7 @@ if (!isset($_POST['submit'])) {
   	if (!validEmail($email[2])) {
   	  $error = 1;
   	  $email[3] = 'color:#FF0000;';
-  	  $email[4] = '<strong><span style="color:#FF0000;">Невалиден email</span></strong>';
+  	  $email[4] = '<strong><span style="color:#FF0000;">'.$CONTACT_INVALID_EMAIL.'</span></strong>';
 	  }
   }
   else {
@@ -93,12 +93,12 @@ if (!isset($_POST['submit'])) {
     if(!$valid) {
       $error = 1;
       $code[3] = 'color:#FF0000;';   
-      $code[4] = '<strong><span style="color:#FF0000;">Грешен код</span></strong>';
+      $code[4] = '<strong><span style="color:#FF0000;">'.$CONTACT_INVALID_CODE.'</span></strong>';
     }
   }
 
   if ($error == 1) {
-    $error_message = '<div style="color:#FF0000;font-weight:bold;font-size:90%;margin-bottom:5px;}">Всички полета са задължителни.</div>';
+    $error_message = '<div style="color:#FF0000;font-weight:bold;font-size:90%;margin-bottom:5px;}">'.$CONTACT_ALL_FIELDS_REQUIRED.'</div>';
 
     showForm();
 
