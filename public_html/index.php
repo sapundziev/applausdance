@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     $page = 'index';
     include('templates/header.php');
 ?>

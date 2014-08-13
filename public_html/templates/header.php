@@ -1,5 +1,14 @@
-﻿<?php include 'inc/env.php'; 
+<?php session_start();
+if ( !empty($_GET['l']) ) {
+    $l = $_GET['l'] === 'en' ? 'en' : 'bg';
+} 
+if ( $l == "en") {
+   require('text/en.php');
+} else {
+   require('text/bg.php');
+} 
 ?>
+<?php include 'inc/env.php'; ?>
 <!DOCTYPE html>
 
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -27,22 +36,6 @@
 </head>
 
 <body>
-<?php 
-if ( !empty($_GET['l']) ) {
-    $_COOKIE['l'] = $_GET['l'] === 'en' ? 'en' : 'bg';
-} else {
-    $_COOKIE['l'] = 'bg';
-}
-setcookie('l', $_COOKIE['l']);
-if ( $_COOKIE['l'] == "en") {
-   require('text/en.php');
-   $l = 'en';
-} else {
-   require('text/bg.php');
-   $l = 'bg';
-} 
-
-?>
     <div class="main-wrapper" role="main">
         <header class="main-header">
             <div class="wrapper centering clearfix">

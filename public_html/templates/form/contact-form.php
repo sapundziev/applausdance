@@ -1,5 +1,4 @@
 ﻿<?php
-if (session_id() == '') session_start();
 /*******************************************************************************
 *  Title: Easy PHP Contact Form (Captcha Version)
 *  Version: 2.1 @ October 17, 2011
