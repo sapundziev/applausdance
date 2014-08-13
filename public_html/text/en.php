@@ -7,28 +7,32 @@ $GALLERY_TAB_NAME = 'Gallery';
 $CONTACT_TAB_NAME = 'Contact';
 
 $SITE_TITLE = "ApplauS Dance";
-$INDEX_TITLE = "ApplauS Dance - Ателие за уникални танцови изяви";
+$INDEX_TITLE = "ApplauS Dance - Unique Dance Performances Atelier";
 
-$INDEX_APPLAUS_DANCE = "ApplauS Dance представлява ателие, където с помощта на опитни хореографи хората да се докоснат до танците, 
-стимулирани от приятното чувство да се изявят пред приятели, 
-да ги изненадат, да забавляват и възхищават публиката си.";
+$INDEX_APPLAUS_DANCE = "ApplauS Dance is an atelier where everyone can become part of the world of dancing 
+being guided and helped by experienced choreographers. We believe the right stimulus is the feeling of 
+performing in front of your friends, surprising and amazing your audience.";
 
-$INDEX_APPLAUS_DANCE1 = "Представете си уроци, в които упражнявате хореография, базирана на вашите желания за стил, брой часове, брой танцуващи, интензивност. 
-Тренировки, при които възможностите на тялото ви, желанието на душата ви и идеите на хореографа се обединяват в магията на танца. 
-За тези, които искат да надминат себе си и да докажат, че с двата им леви крака могат да изтанцуват танцова хореография, 
-и то за ограничен период от време на подготовка. За тези, които искат да отбележат важно събитие или просто искат да бъдат звездите на дансинга, 
-макар и за няколко минути.";
+$INDEX_APPLAUS_DANCE1 = "Imagine dance lessons where you practise your choreography based on the dance style you love, 
+the number of hours you can spent, the number of dance performers and the intensity that suits you best.
+During practise you will feel the magic of dancing - your body movements, your deep down desires mixed with the choreographers' ideas.
+You have reached the right place! Those of you who want to prove that a dance performance is possible with minimal/no dance 
+experience, with limited time for preparation. Those of you willing to celebrate or honor significant events in their lives 
+or those of you who want to be dance stars even for a couple of minutes.";
 
-$INDEX_TITLE2 = "Популяризиране на танца като начин да изразиsш себе си пред публика";
+$INDEX_TITLE2 = "Promoting dance as the way to express yourself in public";
 
-$INDEX_APPLAUS_DANCE2 = "Танците не са достъпни само за хората, танцуващи от 5-годишни и обиколили десетки танцови школи. 
-Какво е нужно? Добър учител и стимул. Какво по-мотивиращо от аплодисментите на омагьосаната публика? От концерт в парка до сватбено тържество.";
+$INDEX_APPLAUS_DANCE2 = "It is an old myth that only people who started dancing at the age of 5 and completed numerous dance classes 
+are capable of dancing. What does it take to learn to dance? A good teacher and the right stimulus. Here you fan find teachers who give their best.
+What could be more motivating than applause from the audience? Enchant your audience - make a concert in the park or 
+a unforgetable wedding or just make your dreams come true!";
 
-$DANCES_TITLE = "Танците";
+$DANCES_TITLE = "Dance performances";
 
-$DANCES_DESCRIPTION = "Аплаус денс ще ви помогне да блеснете на сцената, която вие сте си избрали и на музиката, която ви изразява най-добре";
+$DANCES_DESCRIPTION = "ApplauS Dance is here to help you shine like a star on the dance floor. The stage and floor are up to you. 
+We will combine them with the music that is most suitable for you.";
 
-$DANCES_FIRST_WEDDING_TITLE = "Хореография на първи сватбен танц";
+$DANCES_FIRST_WEDDING_TITLE = "First wedding dance choreography";
 
 $DANCES_FIRST_WEDDING_DESCRIPTION = 
  "Перфектната подготовка стои в основата на зашеметяващия първи сватбен танц. От избор на музика до симулиране на танцовата настилка, 
