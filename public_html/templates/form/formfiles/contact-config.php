@@ -70,11 +70,7 @@ $footer_file = 'formfiles/contact-footer.php';
 /* Thank you message to be displayed after the form is submitted. Can include 
  * HTML tags. Write your message between <!-- Start message --> and <!-- End message --> */
 
-$thank_you_message = <<<EOD
-<!-- Start message -->
-<p><strong>Благодарим ви за проявения интерес. </br>В най-скоро време ще се свържем с вас.</strong></p>
-<!-- End message -->
-EOD;
+$thank_you_message = $CONTACT_THANK_YOU_MESSAGE;
 
 /* URL to be redirected to after the form is submitted. If this is specified, 
  * then the above message will not be shown and user will be redirected to this 
@@ -125,10 +121,10 @@ $left_col_width = '25%';
  *	what you are doing :)
 *******************************************************************************/
 
-$name = array('Р’Р°С€РµС‚Рѕ РёРјРµ','name',NULL,NULL);
-$email = array('Email','email',NULL,NULL,NULL);
-$subject = array('Р—Р°РіР»Р°РІРёРµ','subject',NULL,NULL);
-$message = array('Р—Р°РїРёС‚РІР°РЅРµ','message',NULL,NULL);
-$code = array('РљРѕРґ','captcha_code',NULL,NULL,NULL);
+$name = array($CONTACT_NAME,'name',NULL,NULL);
+$email = array($CONTACT_EMAIL,'email',NULL,NULL,NULL);
+$subject = array($CONTACT_SUBJECT,'subject',NULL,NULL);
+$message = array($CONTACT_MESSAGE,'message',NULL,NULL);
+$code = array($CONTACT_CODE,'captcha_code',NULL,NULL,NULL);
 
 ?>

@@ -1,5 +1,14 @@
-﻿<?php include 'inc/env.php'; 
+<?php session_start();
+if ( !empty($_GET['l']) ) {
+    $l = $_GET['l'] === 'en' ? 'en' : 'bg';
+} 
+if ( $l == "en") {
+   require('text/en.php');
+} else {
+   require('text/bg.php');
+} 
 ?>
+<?php include 'inc/env.php'; ?>
 <!DOCTYPE html>
 
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -27,42 +36,26 @@
 </head>
 
 <body>
-<?php 
-if ( !empty($_GET['language']) ) {
-    $_COOKIE['language'] = $_GET['language'] === 'en' ? 'en' : 'bg';
-} else {
-    $_COOKIE['language'] = 'bg';
-}
-setcookie('language', $_COOKIE['language']);
-if ( $_COOKIE['language'] == "en") {
-   require('text/en.php');
-   $language = 'en';
-} else {
-   require('text/bg.php');
-   $language = 'bg';
-} 
-
-?>
     <div class="main-wrapper" role="main">
         <header class="main-header">
             <div class="wrapper centering clearfix">
                 <div class="upper-header">
                     <div class="main-logo">
-                        <a href="index.php?language=<?php echo $language ?>" title="<?php echo $INDEX_TITLE; ?>"><h1><?php echo $SITE_TITLE; ?></h1></a>
+                        <a href="index.php?l=<?php echo $l ?>" title="<?php echo $INDEX_TITLE; ?>"><h1><?php echo $SITE_TITLE; ?></h1></a>
                     </div>
                 </div>
                 <div class="navigation-wrapper">
 					<nav id="main-navigation">
-						<a href="index.php?language=<?php echo $language ?>"title="<?php echo $INDEX_TAB_NAME; ?>"><?php echo $INDEX_TAB_NAME; ?></a>
-						<a href="dances.php?language=<?php echo $language ?>"title="<?php echo $DANCES_TAB_NAME; ?>"><?php echo $DANCES_TAB_NAME; ?></a>
-						<a href="faqs.php?language=<?php echo $language ?>"title="<?php echo $QANDA_TAB_NAME; ?>"><?php echo $QANDA_TAB_NAME; ?></a>
-						<a href="gallery.php?language=<?php echo $language ?>"title="<?php echo $GALLERY_TAB_NAME; ?>"><?php echo $GALLERY_TAB_NAME; ?></a>
-						<a href="contact-page.php?language=<?php echo $language ?>"title="<?php echo $CONTACT_TAB_NAME; ?>"><?php echo $CONTACT_TAB_NAME; ?></a>
+						<a href="index.php?l=<?php echo $l ?>"title="<?php echo $INDEX_TAB_NAME; ?>"><?php echo $INDEX_TAB_NAME; ?></a>
+						<a href="dances.php?l=<?php echo $l ?>"title="<?php echo $DANCES_TAB_NAME; ?>"><?php echo $DANCES_TAB_NAME; ?></a>
+						<a href="faqs.php?l=<?php echo $l ?>"title="<?php echo $QANDA_TAB_NAME; ?>"><?php echo $QANDA_TAB_NAME; ?></a>
+						<a href="gallery.php?l=<?php echo $l ?>"title="<?php echo $GALLERY_TAB_NAME; ?>"><?php echo $GALLERY_TAB_NAME; ?></a>
+						<a href="contact-page.php?l=<?php echo $l ?>"title="<?php echo $CONTACT_TAB_NAME; ?>"><?php echo $CONTACT_TAB_NAME; ?></a>
 					</nav>
 				</div>
 				<div>
-					<a href="index.php?language=bg">BG</a>|
-					<a href="index.php?language=en">EN</a>
+					<a href="index.php?l=bg">BG</a>|
+					<a href="index.php?l=en">EN</a>
 				</div>
             </div>
         </header>

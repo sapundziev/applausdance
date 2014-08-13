@@ -1,8 +1,5 @@
-﻿<?php session_start(); ?>
-<?php
-    $page = 'Contact';
-    include('templates/header.php');
-?>
+<?php include('templates/header.php');
+$page = 'Contact';?>
 
 <div class="content-wrapper">
 

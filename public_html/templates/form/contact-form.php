@@ -1,5 +1,4 @@
 п»ї<?php
-if (session_id() == '') session_start();
 /*******************************************************************************
 *  Title: Easy PHP Contact Form (Captcha Version)
 *  Version: 2.1 @ October 17, 2011
@@ -56,7 +55,7 @@ if (!isset($_POST['submit'])) {
   	if (!validEmail($email[2])) {
   	  $error = 1;
   	  $email[3] = 'color:#FF0000;';
-  	  $email[4] = '<strong><span style="color:#FF0000;">Невалиден email</span></strong>';
+  	  $email[4] = '<strong><span style="color:#FF0000;">'.$CONTACT_INVALID_EMAIL.'</span></strong>';
 	  }
   }
   else {
@@ -93,12 +92,12 @@ if (!isset($_POST['submit'])) {
     if(!$valid) {
       $error = 1;
       $code[3] = 'color:#FF0000;';   
-      $code[4] = '<strong><span style="color:#FF0000;">Грешен код</span></strong>';
+      $code[4] = '<strong><span style="color:#FF0000;">'.$CONTACT_INVALID_CODE.'</span></strong>';
     }
   }
 
   if ($error == 1) {
-    $error_message = '<div style="color:#FF0000;font-weight:bold;font-size:90%;margin-bottom:5px;}">Всички полета са задължителни.</div>';
+    $error_message = '<div style="color:#FF0000;font-weight:bold;font-size:90%;margin-bottom:5px;}">'.$CONTACT_ALL_FIELDS_REQUIRED.'</div>';
 
     showForm();
 
@@ -155,7 +154,7 @@ if (!isset($_POST['submit'])) {
 function showForm()
 
 {
-global $name, $email, $subject, $message, $code;
+global $name, $email, $subject, $message, $code, $CONTACT_NEW_CODE,$CONTACT_SUBMIT_BUTTON_TEXT;
 global $where_included, $use_header_footer, $header_file, $footer_file;
 global $form_width, $form_height, $form_background, $form_border_color, $form_border_width, $form_border_style, $cell_padding, $left_col_width; 	
 
@@ -193,7 +192,7 @@ echo <<<EOD
 <td><img id="captcha" src="templates/form/formfiles/contact-securimage_show.php" alt="CAPTCHA Image" /></td><td>
 <table>
 <tr><td>
-<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">Р—Р° РЅРѕРІ РєРѕРґ РєР»РёРєРЅРµС‚Рµ С‚СѓРє.</a>
+<a href="#" onclick="document.getElementById('captcha').src = 'templates/form/formfiles/contact-securimage_show.php?' + Math.random(); return false">{$CONTACT_NEW_CODE}</a>
 </td></tr><tr><td>
 {$code[4]} 
 </td>
@@ -209,7 +208,7 @@ echo <<<EOD
 </tbody>
 <tfoot>
 <tr>
-<td colspan="3"><input type="submit" name="submit" value="РР·РїСЂР°С‚Рё Р·Р°РїРёС‚РІР°РЅРµ" id="submit_button" /></td>
+<td colspan="3"><input type="submit" name="submit" value="{$CONTACT_SUBMIT_BUTTON_TEXT}" id="submit_button" /></td>
 </tr>
 </tfoot>
 </table>
