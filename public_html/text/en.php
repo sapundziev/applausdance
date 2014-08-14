@@ -25,162 +25,157 @@ $INDEX_TITLE2 = "Promoting dance as the way to express yourself in public";
 $INDEX_APPLAUS_DANCE2 = "It is an old myth that only people who started dancing at the age of 5 and completed numerous dance classes 
 are capable of dancing. What does it take to learn to dance? A good teacher and the right stimulus. Here you fan find teachers who give their best.
 What could be more motivating than applause from the audience? Enchant your audience - make a concert in the park or 
-a unforgetable wedding or just make your dreams come true!";
+a unforgettable wedding or just make your dreams come true!";
 
 $DANCES_TITLE = "Dance performances";
 
 $DANCES_DESCRIPTION = "ApplauS Dance is here to help you shine like a star on the dance floor. The stage and floor are up to you. 
-We will combine them with the music that is most suitable for you.";
+We combine them with the music that is most suitable for you.";
 
 $DANCES_FIRST_WEDDING_TITLE = "First wedding dance choreography";
 
 $DANCES_FIRST_WEDDING_DESCRIPTION = 
- "Перфектната подготовка стои в основата на зашеметяващия първи сватбен танц. От избор на музика до симулиране на танцовата настилка, 
-вашето облекло в деня на събитието, комбинирани с напрежението и желанието всичко е перфектно - 
-всичко се упражнява в условия, максимално близки до тези на сватбата. 
-Ние разбираме, че първи сватбен танц за повечето хора е уникално в живота преживяване и правим подобаваща хореография. 
-Тренираме, докато станем доволни от резултата, който се вижда в огледалото.";
+ "The perfect wedding dance is based on perfect preparation. We will go through the music choise, the dance ground simulation,
+your clothing, all the stress and excitement on the wedding day. We will rehearse until we are satisfied with
+what we see in the mirrors and on the tapes. Our practise includes covering every corner case so that you will 
+feel absolutely sure that you are ready for the PERFECT and UNIQUE wedding dance.";
 
-$DANCES_BESTMEN_DANCE_TITLE = "Хореография на кумовете";
+$DANCES_BESTMEN_DANCE_TITLE = "Surprise dances";
 
 $DANCES_BESTMEN_DANCE_DESCRIPTION = 
- "Кумовете имат много задачи и задължения преди, по време на и след сватбата. Не случайно са избрани за такива, 
-защото могат да съвместят всичко това и с един прекрасен танц, който да служи за пример на младоженците. 
-Предайте вашата любов чрез движенията си и изтанцувайте стъпките, по които младото семейство ще ходи!";
+ "Congratulate your friends on their event. Show them your love with your sophisticated movements.
+Create special memories from the special occasion.";
 
-$DANCES_SALUTATION_DANCE_TITLE = "Танц – поздрав на важно събитие";
+$DANCES_SALUTATION_DANCE_TITLE = "Entertaining dance performances";
 
 $DANCES_SALUTATION_DANCE_DESCRIPTION =
- "Искате да зарадвате, или направо изненадате ваши приятели и близки на техен важен повод? 
-Тук вариантите са безкрайни и полето за изява е широко. Ще измислим заедно танцът, който да постигне ефект Уау!";
+ "If you want to contribute to a cheerful occasion, suprise your friends and relatives - perform a memorable choreography. 
+The stage of entertainment gives you so many opportunities. Let's invent the dance to provoke a big WOW from the audience!";
 
-$DANCES_BULGARIAN_FOLKLORE_TITLE = "Български народни танци";
+$DANCES_BULGARIAN_FOLKLORE_TITLE = "Bulgarian folklore dance";
 
 $DANCES_BULGARIAN_FOLKLORE_DESCRIPTION1 =
- "Неизменна част от много сватби, народните танци са гаранция за забавление. 
-За да не „забавлявате“ с култово-неадекватните си движения останалите гости, 
-елате да преговорим основните сватбарски хора. Ако мислите, че преговорът няма да е достатъчен, ще ги научим отначало. 
-Гарантираме, че няма да сте опасни за здравето на съседите по хоро.";
+ "Folklore dancing is becoming more and more valuable experience at many weddings. 
+If you want to explore those authentic movements and techniques and amaze all the guests, 
+we can teach you how to perform all the wedding folklore dances or improve your technique. 
+We guarantee that you will have plenty of fun.";
 
 $DANCES_BULGARIAN_FOLKLORE_DESCRIPTION2 =
- "Искате по-раздвижена хореография, искате да разкажете история с автентичен танц и финес? 
-Независимо дали герои за историята, сюжета или реквизита за нея, викнете вашето „Иии иха“ 
-и този зов ще получи нашия отклик.";
+ "If you want to reach the next level of folklore dances - tell an authentic story. 
+Just call „Yee iha“ to find characters, story line or accessories with us!";
 
-$DANCES_PHOTOGRAPHY_TITLE = "Статични танци –а.к.а. фотография";
+$DANCES_PHOTOGRAPHY_TITLE = "Dance fotography";
 
 $DANCES_PHOTOGRAPHY_DESCRIPTION =
- "Нека спомогнем за вашата фотосесия с най-красивите пози, консултация за дрехи и външен вид. 
-През нашите фотообективи ще откриете своя съвсем другa визия, а може би и другото си АЗ!"; 
+ "Let us contrubute to your photosession by helping you stand in the perfect position, consulting you about dresses and outlook. 
+Our cameras will reveal your suprising new vision."; 
 
-$DANCES_PROM_DANCE_TITLE = "Искам да съм крал/кралица на бала";
+$DANCES_PROM_DANCE_TITLE = "The queen and king of prom";
 
 $DANCES_PROM_DANCE_DESCRIPTION =
- "Дали завършваме училище или сме отскочили до Виена – сигурно искаме да останем със спомени за цял живот. 
-Какво по-хубаво от един плавен валс или шеметно танго? Ще положим основите и ще танцуваме така, че да направим 
-впечатление и на най-незаинтересованите очи. А най-важното – 
-ще научим как да се забавляваме отвътре и как това да ни личи по танца.";
+ "Graduating school must be a memorable experience. Image you enter the ballroom. How about a smooth waltz or a passionate tango?
+Let's out the foundation of your ballroom dancing and collect everyone's attention. Let's turn your dance style to a mirror
+of you inner happiness.";
 
-
-$DANCES_SUGGESTIONS_TITLE = "Какво ще предложите вие?";
+$DANCES_SUGGESTIONS_TITLE = "Your ideas?";
 
 $DANCES_SUGGESTIONS_DESCRIPTION =
- "Все още може да не сте видели нещото, което търсите. Не е възможно да се изброят всички танци, 
-хореографии и техните приложения. Това, което е напълно възможно обаче, е да споделите ваша идея. 
-Възможно е и да намерите съмишленици за нея тук. В идеалния случай, тя ще бъде превърната в изява. 
-Какво по-страхотно от това? Да действаме!";
+ "Maybe you still have not found what you are looking for. So many dance styles, so many different choreographies.
+We want to hear from you. Let us put our energy and experience into your ideas. Let's transform your idea to your show, 
+your performance. Let's start!";
 
-$GALLERY_TITLE = "Галерия";
 
-$QANDA_TITLE = "Отговори на вашите въпроси";
+$GALLERY_TITLE = "Gallery";
 
-$QANDA_1_QUESTION = "Какво да направя, ако искам да пробвам?";
+
+$QANDA_TITLE = "Your questions answered";
+
+$QANDA_1_QUESTION = "OK, I am intrigued, but where should I start from?";
 
 $QANDA_1_ANSWER = 
- "Първото и най-важното нещо е, ако проявявате интерес, е да се свържете с нас. 
-Ще се срещнем, ще поговорим и ако вашите виждания за танца си паснат с нашите възможности, 
-продължаваме направо в залата, където ще тренираме.";
+ "If you are interested the first thing to do is to get in touch with us. 
+We can meet and get to know each other and if your vision fits in with our potential - 
+We continue to the dance hall for our first practise.";
 
-$QANDA_2_QUESTION = "Искам нещо, но нямам идея какво…?";
+$QANDA_2_QUESTION = "I would like to perform/dance, but I don't know exactly what...?";
 
 $QANDA_2_ANSWER =
- "Срещаме се, говорим си и впоследствие заедно формулираме и осъществяваме идеята.";
+ "Let's get in touch, talk and decide how we can implement your idea or materialize your desire to dance.";
 
-$QANDA_3_QUESTION = "Колко време ще ми трябва?";
+$QANDA_3_QUESTION = "How much time will I have to spend?";
 
 $QANDA_3_ANSWER = 
- "Въпросът е с колко време разполагате. Ше съобразим хореграфията с времето, 
- което може да тренирате и вашите възможности, така че да изглежда красиво.";
+ "It is a matter of how much time you have. We will adapt the choreography to your free time
+ and personal abilities. It should be perfect at the end of the day!";
 
-$QANDA_4_QUESTION = "Къде ще тренираме?";
+$QANDA_4_QUESTION = "Where shall we rehearse?";
 
 $QANDA_4_ANSWER =
- "В момента разполагаме със зала в Княжево, София. Ако вие можете да предоставите място, подходящо за танци, ще го използваме.";
+ "Currently we use a dance hall in Knyazhevo, Sofia. We are willing to use places you suggest for dancing.
+Lessons and rehearsals could be arranged anywhere on planet Earth in a timely manner.";
 
-$QANDA_5_QUESTION = "Колко ще струва?";
+$QANDA_5_QUESTION = "How much do I have to pay?";
 
 $QANDA_5_ANSWER =
- "Ценообразуването е динамично. Mоже да зависи от вашето финансово състояния, броя репетиции и сложността на танца. 
-Който не се чуди много много, ще се радва на безплатни хореографии и уроци.";
+ "Pricing is dynamically formed. It can depend on your financial status, the number of lessons and the choreography complexity. 
+For those of you determined to start, we offer FREE lessons and rehearsals.";
 
-$QANDA_6_QUESTION = "Има ли ограничения за възраст?";
+$QANDA_6_QUESTION = "Are there age limitations?";
 
 $QANDA_6_ANSWER =
- "С най-голямо удоволствие работим с малки деца, както и с възрастни хора. Важното е да имате възможност да се движите 
-и огромно желание да танцувате и да бъдете оценени от публиката. Няма ограничения за възраст, пол, раса, религиозни и политически убеждения. 
-Единственото нужно убеждение е да танцувате с желание и ясна цел.";
+ "We are happy to work with children as well as with adults and elderly people. It is important that your able to move
+and that you possess the strong desire to dance ane be appreciated by the audience. There are no age, gender, religious and political
+limitations here. You just have to feel like dancing and feel like performing.";
 
-$QANDA_7_QUESTION = "Има ли максимален брой хора за хореографията?";
+$QANDA_7_QUESTION = "What is the maximum number of dancers?";
 
 $QANDA_7_ANSWER =
- "Ако вашата група/компания иска да направи зашеметяващ танц, завладяващ не само с качество, но и с количество -> всички, 
-които сцената може да побере, са добре дошли.";
+ "Your group/company can make a stunning choreography come true - the only requirement is that the dance stage or 
+floor should be big enough to accomodate all the dancers. The bigger the group, the greater ammount of energy spread!";
 
 $QANDA_8_QUESTION =
- "Искам да изненадам приятели, като ги изпратя да се научат да танцуват!";
+ "I want to make a dance lesson gift to my friends!";
 
 $QANDA_8_ANSWER =
- "Няма как да пропуснем среща, в която идеята е да научим максимално какви би зарадвало хората, 
-какво ще им достави удоволствие и какви възможности имат. Важно е да знаем какъв е повода за танца и 
-какви точно са очакванията ви за това, което ще научат и покажат.";
+ "We need to get in touch to learn the most about your friends, what would give them the best according 
+to their current experience and abilities. To help them enjoy the most, we need to be aware of the 
+goals we want to achieve with choreography and dancing and what their expectations for the performance are.";
 
 $QANDA_9_QUESTION = 
- "Искам да се изявявам като хореограф!";
+ "I want to join as a choreographer!";
 
 $QANDA_9_ANSWER =
- "Разкажете ни за себе си – с какви танци имате опит, къде се чувствате най-добри колко време може да отделите. 
-Или най-добре - да се срещнем в залата и да започваме!";
+ "Tell us about yourself - what is your dance experience, what is your specialty, how much time can you spend? 
+It is even better to meet on the dance floor and get started!";
 
-$CONTACT_TITLE = "Свържете се с нас!";
 
-$CONTACT_ADDRESS = "бул. Цар Борис III, 375";
+$CONTACT_TITLE = "Get in touch!";
 
-$CONTACT_CITY = "София, 1618";
+$CONTACT_ADDRESS = "375 Tsar Boris III blvd.";
 
-$CONTACT_PHONE = "тел: +359 892 958 923";
+$CONTACT_CITY = "Sofia, 1618";
+
+$CONTACT_PHONE = "mobile: +359 892 958 923";
 
 $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 
-$CONTACT_BIGGER_MAP = "Вижте по-голяма карта";
+$CONTACT_BIGGER_MAP = "See bigger map";
 
-$CONTACT_NEW_CODE = "За нов код кликнете тук.";
-$CONTACT_NAME = "Вашето име";
-$CONTACT_EMAIL = "Ел. поща";
-$CONTACT_SUBJECT = "Заглавие";
-$CONTACT_MESSAGE = "Запитване";
-$CONTACT_CODE = "Код";
-$CONTACT_SUBMIT_BUTTON_TEXT = "Изпрати запитване";
-$CONTACT_INVALID_EMAIL = "Невалидна ел. поща";
-$CONTACT_INVALID_CODE = "Грешен код";
-$CONTACT_ALL_FIELDS_REQUIRED = "Всички полета са задължителни.";
-$CONTACT_THANK_YOU_MESSAGE = "<p><strong>Благодарим ви за проявения интерес.</br> В най-скоро време ще се свържем с вас.</strong></p>";
+$CONTACT_NEW_CODE = "Click here for a new code.";
+$CONTACT_NAME = "Your name";
+$CONTACT_EMAIL = "Email";
+$CONTACT_SUBJECT = "Subject";
+$CONTACT_MESSAGE = "Message";
+$CONTACT_CODE = "Code";
+$CONTACT_SUBMIT_BUTTON_TEXT = "Send inquiry";
+$CONTACT_INVALID_EMAIL = "Invalid email";
+$CONTACT_INVALID_CODE = "Code doesn't match";
+$CONTACT_ALL_FIELDS_REQUIRED = "Fill in all required fields";
+$CONTACT_THANK_YOU_MESSAGE = "<p><strong>Thank you for your interest!</br> We will get in touch with you soon.</strong></p>";
 
-$SOCIAL_VIMEO = "Видео галерия във Vimeo";
-
-$SOCIAL_PICASA = "Галерия в Picasa";
-
-$SOCIAL_MAIL = "Изпратете email";
-
-$SOCIAL_COMING_SOON = "Очаквайте скоро";
+$SOCIAL_VIMEO = "Vimeo videos";
+$SOCIAL_PICASA = "Picasa gallery";
+$SOCIAL_MAIL = "Send email";
+$SOCIAL_COMING_SOON = "Coming soon";
 
 ?>

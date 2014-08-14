@@ -12,7 +12,7 @@
 					<ol>
 						<li class="question"><?php echo $QANDA_1_QUESTION; ?>
 							<ul>
-								<li class="answer"><?php echo $QANDA_1_ANSWER; ?> <a href="contact-page.php"><?php echo $CONTACT_TITLE; ?></a><br /></li>
+								<li class="answer"><?php echo $QANDA_1_ANSWER; ?> <a href="contact-page.php?l=<?php echo $l ?>"><?php echo $CONTACT_TITLE; ?></a><br /></li>
 							</ul>
 						</li>
 						<li class="question"><?php echo $QANDA_2_QUESTION; ?>
