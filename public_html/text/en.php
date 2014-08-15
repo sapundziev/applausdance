@@ -102,6 +102,13 @@ $QANDA_2_QUESTION = "I would like to perform/dance, but I don't know exactly wha
 $QANDA_2_ANSWER =
  "Let's get in touch, talk and decide how we can implement your idea or materialize your desire to dance.";
 
+$QANDA_2A_QUESTION = "What would be the dance style of my performance?";
+
+$QANDA_2A_ANSWER =
+ "The answer in one word is: custom. Unique. We can combinie our skills in latin dance(rumba, cha-cha, jive, samba, paso doble) 
+or ballroom(waltz, viennese waltz, foxtrot, quickstep, tango) with elements from classical and jazz ballet, disco, 
+contemporary and with your own style.";
+ 
 $QANDA_3_QUESTION = "How much time will I have to spend?";
 
 $QANDA_3_ANSWER = 
