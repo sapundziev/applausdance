@@ -1,5 +1,6 @@
 <?php
-    $page = 'Dances';
+    $page = 'faqs';
+	define("current_page", "faqs");
     include('templates/header.php');
 ?>
 

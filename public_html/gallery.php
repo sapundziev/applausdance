@@ -1,5 +1,6 @@
 <?php
-    $page = 'Dances';
+    $page = 'gallery';
+	define("current_page", "gallery");
     include('templates/header.php');
 ?>
 

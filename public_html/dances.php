@@ -1,6 +1,7 @@
 <?php
+    $page = 'dances';
+	define("current_page", "dances");
     include('templates/header.php');
-	$page = 'Dances';
 ?>
 
 <div class="content-wrapper">

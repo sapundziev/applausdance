@@ -1,5 +1,8 @@
-<?php include('templates/header.php');
-$page = 'Contact';?>
+<?php 
+	$page = 'contact-page';
+	define("current_page", "contact-page");
+	include('templates/header.php');
+?>
 
 <div class="content-wrapper">
 

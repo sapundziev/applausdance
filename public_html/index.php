@@ -1,5 +1,6 @@
 <?php
     $page = 'index';
+	define("current_page", "index");
     include('templates/header.php');
 ?>
     <div class="content-wrapper">

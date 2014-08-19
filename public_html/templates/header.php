@@ -56,8 +56,9 @@ if ( $l == "en") {
 				</div>
 				<div>
 					<nav id="lang-navigation">
-						<a href="index.php?l=bg">BG</a>|
-						<a href="index.php?l=en">EN</a>
+						<?php if (defined("current_page")) {$url=current_page.".php?l=";} else {$url="index".".php?l=";} ?>
+						<a href="<?php echo $url.'bg'; ?>">BG</a>|
+						<a href="<?php echo $url.'en'; ?>">EN</a> 
 					</nav>
 				</div>
             </div>
