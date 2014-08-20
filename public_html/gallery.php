@@ -31,10 +31,10 @@
            
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
-    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px;
-        height: 600px; margin-left: auto; margin-right: auto;">
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 750px;
+        height: 500px; margin-left: auto; margin-right: auto;">
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 600px; overflow: hidden;">
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 750px; height: 500px; overflow: hidden;">
 		<?php
 		$dir = './images/gallery_small';
 		$start = '<div><img u="image" src="';
