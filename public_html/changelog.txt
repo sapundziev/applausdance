@@ -4,4 +4,4 @@ _________________________________
 11.08.2014|d3fed734e503|Fix for small screens resizing in header. 
 13.08.2014|738818356691|Fix text duplications
 19.08.2014|7f6965d8eeb9|add new question about styles
-20.08.2014|2c166384a5be|Add arrow gallery slider
+20.08.2014|673e81e43534|Text is better viewed with bigger fonts and spacing between lines
