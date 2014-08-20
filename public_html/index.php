@@ -8,9 +8,9 @@
 			<div class="main-content">
 				<h1 class="page-title"><?php echo $INDEX_TITLE; ?></h1>
 				<div class="pararg-wrapper">
-					<p>
-					<span><?php echo $INDEX_APPLAUS_DANCE; ?>
-					</p>
+					<h4>
+					<?php echo $INDEX_APPLAUS_DANCE; ?>
+					</h4>
 					<p>
 					<span><?php echo $INDEX_APPLAUS_DANCE1; ?>
 					</p>

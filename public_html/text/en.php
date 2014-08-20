@@ -8,7 +8,7 @@ $CONTACT_TAB_NAME = 'Contact';
 $SITE_TITLE = "ApplauS Dance";
 $INDEX_TITLE = "ApplauS Dance - Unique Dance Performances Atelier";
 
-$INDEX_APPLAUS_DANCE = "ApplauS Dance is an atelier where everyone can become part of the world of dancing 
+$INDEX_APPLAUS_DANCE = "ApplauS Dance is an atelier where everyone becomes part of the world of dancing 
 being guided and helped by experienced choreographers. We believe the right stimulus is the feeling of 
 performing in front of your friends, surprising and amazing your audience.";
 
