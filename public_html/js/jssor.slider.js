@@ -3019,7 +3019,7 @@ new function () {
             ShowNavigators();
 
             //Keyboard Navigation
-            if (_Options.$ArrowKeyNavigation) {
+            
                 $JssorUtils$.$AddEvent(document, "keydown", function (e) {
                     if (e.keyCode == $JssorKeyCode$.$LEFT) {
                         //Arrow Left
@@ -3030,7 +3030,6 @@ new function () {
                         PlayToOffset(1);
                     }
                 });
-            }
 
             var startPosition = _Options.$StartIndex;
             if (!(_Loop & 1)) {
