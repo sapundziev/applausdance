@@ -13,13 +13,13 @@ a, div, html, body, header, span, p, img, h1, h2, h3, h4 {
 
 body {
     font: 12px/18px 'Georgia', 'Verdana', sans-serif;
-	color: #fff;
+	color: #000;
 	background: url('../images/main-background.jpg') no-repeat fixed center 0 #272218;
 }
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 
@@ -65,7 +65,7 @@ a {
 /* ---------------------------------Header------------------------------------- */
 
 .main-header {
-	background-color: rgba(36, 17, 28, 0.41);
+	background-color: rgba(232, 206, 167, 0.61); /*rgba(36, 17, 28, 0.41)*/
 	border-bottom: 2px solid #a56c98;
 	margin-bottom: 50px;
 	padding-bottom: 10px;
@@ -76,7 +76,7 @@ a {
 
 
 .upper-header {
-	height: 150px;
+	height: 120px;
 	float: left;
 }
 
@@ -84,7 +84,7 @@ a {
 	width: 350px;
 	height: 150px;
 	background-image: url(../images/logo_supernova.png);
-	background-size: 350px 150px;
+	background-size: 280px 120px;
 	background-repeat:no-repeat;
 }
 
@@ -117,6 +117,8 @@ a {
 	background: #FAE4E4 url('../images/navigation_background.png') no-repeat top 5px center;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 	color: #000;
 	font-weight: bold;
 }
@@ -129,10 +131,10 @@ a {
 /* ---------------------------------Footer------------------------------------- */
 
 .main-footer {
-	background-color: rgba(36, 17, 28, 0.5);
+	background-color: rgba(232, 206, 167, 0.61); /*rgba(36, 17, 28, 0.5)*/
 	border-top: 2px solid #a56c98;
 	height: 50px;
-	color: #fff;
+	color: #000;
 	margin-top: 50px;
 	border-radius: 15px;
 
@@ -193,7 +195,9 @@ h4 {
 .main-content {
 	padding: 25px;
 	border-radius: 15px;
-	background-color: rgba(36, 17, 28, 0.5);
+	border-bottom: 2px solid #a56c98;
+	border-top: 2px solid #a56c98;
+	background-color: rgba(232, 206, 167, 0.65); /*rgba(36, 17, 28, 0.9)*/
 }
 
 .pararg-wrapper {
@@ -202,7 +206,7 @@ h4 {
 
 .pararg-wrapper p {
 	padding: 10px 0;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 400;
 	line-height:160%;
 }
@@ -225,7 +229,7 @@ h4 {
 .dance-style, .dance-style-right {
 	width: 800px;
 	margin: 20px auto;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #000;
 	padding-bottom: 15px;
 }
 
@@ -265,12 +269,12 @@ h4 {
 }
 
 .question-wrapper .answer{
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 400;
 }
 
 .pararg-wrapper-2{
-	font-size: 13px;
+	font-size: 15px;
 	line-height:160%;
 }
 
@@ -292,11 +296,11 @@ h4 {
 }
 
 #contact-form input, #contact-form textarea{
-	background-color: rgba(36, 17, 28, 0.9);
+	background-color: rgba(232, 206, 167, 0.65); /*rgba(36, 17, 28, 0.9)*/
     border: 1px solid #999;
     border-radius: 6px;
     box-shadow: 2px 2px 2px #000;
-    color: #fff;
+    color: #000;
     padding: 6px;
     width: 300px;
 }
@@ -351,7 +355,7 @@ box-shadow: 0px 0px 3pt 2pt #a56c98;
 }
 
 #google-map a {
-	color: #fff;
+	color: #000;
 	font-size: 15px;
 	font-style: italic;
 	margin-left: 10px;

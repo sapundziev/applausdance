@@ -26,11 +26,7 @@ if ( $l == "en") {
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/about-page.css">
-    <link rel="stylesheet" href="styles/contact-page.css">
-    <link rel="stylesheet" href="styles/blog-item-page.css">
-    <link rel="stylesheet" type="text/css" href="styles/blog-page.css">
 	<link rel="icon" href="logo_supernova-2.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="logo_supernova-2.ico" type="image/x-icon">
 
