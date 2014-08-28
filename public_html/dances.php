@@ -12,7 +12,7 @@
 			<h2><?php echo $DANCES_DESCRIPTION; ?></h2>
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/wedding_dance.jpg">
+						<a href="https://picasaweb.google.com/104827279313833084326/KwElmG?noredirect=1" target="_blank"> <img src="images/wedding_dance.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_FIRST_WEDDING_TITLE; ?></h3>
@@ -21,7 +21,7 @@
 				</div><!-- end of .dance-style -->
 				<div class="dance-style-right clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/kumove.jpg">
+						<a href="https://picasaweb.google.com/104827279313833084326/DanceSurprisesForDifferentEvents?noredirect=1" target="_blank"> <img src="images/kumove.jpg" >
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_BESTMEN_DANCE_TITLE; ?></h3>
@@ -30,7 +30,7 @@
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/pozdrav.jpg">
+						<a href="https://picasaweb.google.com/104827279313833084326/DanceSurprisesForDifferentEvents?noredirect=1" target="_blank"> <img src="images/pozdrav.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_SALUTATION_DANCE_TITLE; ?></h3>
@@ -49,7 +49,7 @@
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/static.jpg">
+						<a href="https://picasaweb.google.com/104827279313833084326/ObsessionWithPhotosession?noredirect=1" target="_blank"> <img src="images/static.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_PHOTOGRAPHY_TITLE; ?></h3>
@@ -58,7 +58,7 @@
 				</div><!-- end of .dance-style -->
 				<div class="dance-style-right clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/king_and_queen.jpg">
+						<a href="https://picasaweb.google.com/104827279313833084326/neBCVI" target="_blank"> <img src="images/king_and_queen.jpg">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_PROM_DANCE_TITLE; ?></h3>
@@ -67,7 +67,7 @@
 				</div><!-- end of .dance-style -->
 				<div class="dance-style clearfix">
 					<div class="image-wrapper-2">
-						<img src="images/logo_supernova-2.png">
+						<a href="https://picasaweb.google.com/104827279313833084326/ErIgmG" target="_blank"><img src="images/logo_supernova-2.png">
 					</div><!-- end of .image-wrapper-2 -->
 					<div class="pararg-wrapper-2">
 						<h3><?php echo $DANCES_SUGGESTIONS_TITLE; ?></h3>
