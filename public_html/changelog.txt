@@ -5,3 +5,4 @@ _________________________________
 13.08.2014|738818356691|Fix text duplications
 19.08.2014|7f6965d8eeb9|add new question about styles
 20.08.2014|d773009a6ffc|Fix gallery aspect ratio
+22.08.2014|6bb41766a032|Gallery arrow navigation
