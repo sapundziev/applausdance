@@ -6,9 +6,9 @@ $GALLERY_TAB_NAME = 'Gallery';
 $CONTACT_TAB_NAME = 'Contact';
 
 $SITE_TITLE = "ApplauS Dance";
-$INDEX_TITLE = "ApplauS Dance - Unique Dance Performances Atelier";
+$INDEX_TITLE = "ApplauS Dance - unique dance performances atelier";
 
-$INDEX_APPLAUS_DANCE = "ApplauS Dance is an atelier where everyone becomes part of the world of dancing 
+$INDEX_APPLAUS_DANCE = "ApplauS Dance is a place where everyone becomes part of the world of dancing 
 being guided and helped by experienced choreographers. We believe the right stimulus is the feeling of 
 performing in front of your friends, surprising and amazing your audience.";
 
