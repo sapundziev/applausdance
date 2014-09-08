@@ -7,20 +7,16 @@
             full_path = location.href.split('#')[0]; //Ignore hashes  
       
         // Loop through each link.  
+		var m = 0;
         for(i=0; i<len; i++) {  
             if(all_links[i].href.split("#")[0] == full_path) {  
                 all_links[i].className += " current";  
+				m = 1;
             }  
         }  
+		if (m === 0) {
+			all_links[0].className += " current";
+		}
     }  
-    
-    
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-54557655-1', 'auto');
-    ga('send', 'pageview');
 
   
