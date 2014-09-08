@@ -7,3 +7,4 @@ _________________________________
 20.08.2014|d773009a6ffc|Fix gallery aspect ratio
 22.08.2014|6bb41766a032|Gallery arrow navigation
 02.09.2014|bd0e3f2f5f48|enable pictures from dances section to link to gallery albums
+08.09.2014|ce65bb751d57|Add google analytics
