@@ -164,7 +164,8 @@
 					</div>';		
 				while(!feof($file)){
 					$line = fgets($file);
-					if (empty(trim($line)) == false) {
+					$line = trim($line);
+					if (empty($line) == false) {
 						echo $start_video;
 						echo $line;
 						echo $end_video;		
