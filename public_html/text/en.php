@@ -84,7 +84,8 @@ We want to hear from you. Let us put our energy and experience into your ideas. 
 your performance. Let's start!";
 
 
-$GALLERY_TITLE = "Gallery";
+$GALLERY_TITLE_PICTURES = "Photos";
+$GALLERY_TITLE_VIDEOS = "Video";
 
 
 $QANDA_TITLE = "Your questions answered";
