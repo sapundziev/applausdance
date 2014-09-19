@@ -154,7 +154,7 @@ $CONTACT_ADDRESS = "375 Tsar Boris III blvd.";
 
 $CONTACT_CITY = "Sofia, 1618";
 
-$CONTACT_PHONE = "mobile: +359 892 958 923";
+$CONTACT_PHONE = "mobile: +359 899 210 173; +359 895 739 530;
 
 $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 

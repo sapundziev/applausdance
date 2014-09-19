@@ -154,7 +154,7 @@ $CONTACT_ADDRESS = "бул. Цар Борис III, 375";
 
 $CONTACT_CITY = "София, 1618";
 
-$CONTACT_PHONE = "тел: +359 892 958 923";
+$CONTACT_PHONE = "тел: +359 899 210 173; +359 895 739 530";
 
 $CONTACT_MAIL = "e-mail: contact@applausdance.com";
 
