@@ -10,4 +10,4 @@ _________________________________
 08.09.2014|c8ffdea559ae|Fix default tab selection and google analytics
 12.09.2014|89a0754bd6d2|Disable auto play for videos
 20.09.2014|5b1e46a3e8bb|Change phone numbers
-
+20.10.2014|0aacebe35e61|Add mas que nada in the video list
