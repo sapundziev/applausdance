@@ -11,3 +11,4 @@ _________________________________
 12.09.2014|89a0754bd6d2|Disable auto play for videos
 20.09.2014|5b1e46a3e8bb|Change phone numbers
 20.10.2014|0aacebe35e61|Add mas que nada in the video list
+12.08.2015|518eddd63b12d4955fb7a3412b33894a435592cf|Add the new addres
