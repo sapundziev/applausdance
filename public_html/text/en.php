@@ -111,7 +111,7 @@ $QANDA_3_ANSWER =
 $QANDA_4_QUESTION = "Where shall we rehearse?";
 
 $QANDA_4_ANSWER =
- "Currently we use a dance hall in Knyazhevo, Sofia. We are willing to use places you suggest for dancing.
+ "Currently we use a dance hall in Knyazhevo and Musagenitsa, Sofia. We are willing to use places you suggest for dancing.
 Lessons and rehearsals could be arranged anywhere on planet Earth in a timely manner.";
 
 $QANDA_5_QUESTION = "How much do I have to pay?";
@@ -151,9 +151,13 @@ It is even better to meet on the dance floor and get started!";
 
 $CONTACT_TITLE = "Get in touch!";
 
-$CONTACT_ADDRESS = "375 Tsar Boris III blvd.";
+$CONTACT_ADDRESS = "Musagenitsa";
 
-$CONTACT_CITY = "Sofia, 1618";
+$CONTACT_CITY = "Sofia";
+
+$CONTACT_ADDRESS_1 = "375 Tsar Boris III blvd.";
+
+$CONTACT_CITY_1 = "Sofia, 1618";
 
 $CONTACT_PHONE = "mobile: +359 899 210 173; +359 895 739 530";
 
